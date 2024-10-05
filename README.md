@@ -1,0 +1,45 @@
+Chat Vista – A Chat Analyser
+ Overview
+
+Chat Vista is a Streamlit-based web application designed for analyzing chat data. The app provides various statistical analyses, visualizations, and insights into the given chat dataset, allowing users to understand communication patterns, sentiment, and more.
+
+ How to Run
+
+1.Download the ZIP Archive:
+   - Download the ZIP file containing the Chat Vista project.
+
+2. Extract the ZIP Archive:
+   - Extract the contents of the ZIP file to a directory of your choice.
+
+3. Install Dependencies:
+   - Open a terminal or command prompt.
+   - Navigate to the extracted directory.
+   - Run the following command to install the required dependencies:
+     pip install streamlit matplotlib pandas seaborn pillow textblob
+
+4. Run the Application:
+   - Run the Streamlit app using the following command:
+     streamlit run app.py
+
+
+5. Access the App:
+   - Open your web browser and go to `http://localhost:8501` to view and interact with the Chat Vista app.
+
+Usage
+
+1. Upload Chat Data:
+   - Click on the "Choose a file" button in the sidebar.
+   - Select a chat data file to analyze. (.txt files only)
+
+2. Analyze Chat:
+   - Choose a user or select "Overall" from the dropdown.
+   - Click the "Show Analysis" button to generate insights.
+
+3. Explore Visualizations:
+   - View various statistics, timelines, activity maps, and sentiment analyses.
+   - Customize the analysis based on the selected user or analyze the entire group.
+
+4. Interpret Results:
+   - Understand the distribution of messages, word usage, media sharing, and more.
+   - Explore sentiment analysis to gauge the overall tone of the conversation.
+
